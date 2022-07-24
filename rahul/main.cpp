@@ -1,9 +1,11 @@
+//Rahul Kumar
 #include"student.hpp"
 using namespace std;
-	extern string name;
-	extern int rollNo,checkRoll;
-	extern char studentOpt;
-	extern int op;
+using namespace student;
+extern string name;
+extern int rollNo,checkRoll;
+extern char studentOpt;
+extern int op;
 int main()
 {  
 #if 1

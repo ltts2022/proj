@@ -1,3 +1,4 @@
+//Rahul Kumar
 #pragma once
 #include<iostream>
 #include<string>
@@ -9,14 +10,14 @@
 #include <cstdint>
 using namespace std;
 using namespace std::chrono;
-//namespace student {
+namespace student {
 	void addStudent(map<int, string>& addStu_data);
 	void delete_data(map<int, string>& stu_data);
 	void display_data(map<int, string>& stu_data);
-
-/*	string name;
+	/*map<int, string>::iterator it;
+	string name;
 	int rollNo,checkRoll;
 	char studentOpt;
-	int op;
-*/
-//}
+	int op;*/
+
+}

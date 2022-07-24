@@ -1,11 +1,13 @@
+//Rahul Kumar
 #include"student.hpp"
 using namespace std;
+using namespace student;
 string name;
 int rollNo,checkRoll;
 char studentOpt;
 int op;
 map<int, string>::iterator it;
-void display_data(map<int, string>& stu_data)
+void student::display_data(map<int, string>& stu_data)
 {
 	cout << "**************************************" << endl;
     it = stu_data.begin();
@@ -15,7 +17,7 @@ void display_data(map<int, string>& stu_data)
     }
 	cout << "**************************************" << endl;
 }
-void delete_data(map<int, string>& stu_data)
+void student::delete_data(map<int, string>& stu_data)
 {
     //stu_data.erase(stu_data.begin(), stu_data.find("Siva"));
     it = stu_data.begin();
@@ -28,7 +30,7 @@ void delete_data(map<int, string>& stu_data)
         ++it;
     }
 }
-void addStudent(map<int, string>& addStu_data)
+void student::addStudent(map<int, string>& addStu_data)
 {
     it= addStu_data.begin();
     cout << "Enter Student RollNumber: ";
