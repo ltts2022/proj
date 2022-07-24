@@ -1,6 +1,10 @@
 //siva
 #include"person.h"
-
+map<int, string>::iterator it;
+string name;
+int street_number,roll_number;
+char PersonOpt;
+int op;
 using namespace Person;
 void Person::display_data(map<int, string>& Person_data)
 {
@@ -27,7 +31,7 @@ void Person::delete_data(map<int, string>& Person_data)
 }
 void Person::addPerson(map<int, string>& addPerson_data)
 {
-    map<int, string>::iterator it= addPerson_data.begin();
+    it= addPerson_data.begin();
     cout << "Enter Person street number: ";
     cin >> street_number;
     cout << "Person Name: ";

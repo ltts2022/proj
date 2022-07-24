@@ -1,7 +1,11 @@
 //siva
 #include"person.h"
-
 using namespace Person;
+extern map<int, string>::iterator it;
+extern string name;
+extern int street_number,roll_number;
+extern char PersonOpt;
+extern int op;
 
 int main()
 {  
